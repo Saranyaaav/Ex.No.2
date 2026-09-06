@@ -1,15 +1,15 @@
 # EX-02: Cross-Platform Prompting: Evaluating Diverse Techniques in AI-Powered Text Summarization
 
-**Repository:** [https://github.com/RaajaThilahar/Ex.No.2.git](https://github.com/RaajaThilahar/Ex.No.2.git)
+## Register Number : 212223040188
 
 ---
 
-## 🎯 AIM
+## AIM
 To evaluate and compare the effectiveness of various prompting techniques (zero-shot, few-shot, chain-of-thought, role-based, tabular, and comparative) across multiple state-of-the-art AI platforms (e.g., ChatGPT, Claude, Gemini/Bard, Cohere Command, and Meta AI) for text summarization, technical reasoning, and structured task execution.
 
 ---
 
-## 🛠️ ALGORITHM
+## ALGORITHM
 
 1. **Define the Use Case:** Select a uniform suite of evaluation tasks applicable across all candidate platforms (e.g., direct Q&A, table generation, comparative synthesis, and step-by-step guidance).
 2. **Design Standardized Prompts:** Construct precise, consistent prompt templates across 8 distinct prompting categories to ensure unbiased baseline testing across models.
@@ -23,7 +23,7 @@ To evaluate and compare the effectiveness of various prompting techniques (zero-
 
 ---
 
-## 🧪 EXPERIMENTAL PROMPTS & CROSS-PLATFORM EXECUTIONS
+## EXPERIMENTAL PROMPTS & CROSS-PLATFORM EXECUTIONS
 
 ### 1. Straightforward Prompting (Zero-Shot Baseline)
 > **Prompt:** `"What is the capital of France?"`
@@ -115,7 +115,7 @@ To evaluate and compare the effectiveness of various prompting techniques (zero-
 
 ---
 
-## 📊 CROSS-PLATFORM PERFORMANCE EVALUATION MATRIX
+## CROSS-PLATFORM PERFORMANCE EVALUATION MATRIX
 
 | Prompt Style / Criteria | ChatGPT | Claude | Gemini / Bard | Cohere Command | Meta AI |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -131,5 +131,5 @@ To evaluate and compare the effectiveness of various prompting techniques (zero-
 
 ---
 
-## 🏁 RESULT
+## RESULT
 The prompting strategies across all designated AI platforms (**ChatGPT**, **Claude**, **Gemini/Bard**, **Cohere Command**, and **Meta AI**) were systematically designed, executed, evaluated, and documented in repository `https://github.com/RaajaThilahar/Ex.No.2.git`.
