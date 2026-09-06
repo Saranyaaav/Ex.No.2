@@ -112,4 +112,4 @@ To evaluate and compare the effectiveness of various prompting techniques (zero-
 ---
 
 ## RESULT
-The prompting strategies across all designated AI platforms (**ChatGPT**, **Claude**, **Gemini/Bard**, **Cohere Command**, and **Meta AI**) were systematically designed, executed, evaluated, and documented in repository `https://github.com/RaajaThilahar/Ex.No.2.git`.
+The prompting strategies across all designated AI platforms (**ChatGPT**, **Claude**, **Gemini/Bard**, **Cohere Command**, and **Meta AI**) were systematically designed, executed, evaluated, and outputted.
