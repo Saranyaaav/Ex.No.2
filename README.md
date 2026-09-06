@@ -7,8 +7,6 @@
 ## AIM
 To evaluate and compare the effectiveness of various prompting techniques (zero-shot, few-shot, chain-of-thought, role-based, tabular, and comparative) across multiple state-of-the-art AI platforms (e.g., ChatGPT, Claude, Gemini/Bard, Cohere Command, and Meta AI) for text summarization, technical reasoning, and structured task execution.
 
----
-
 ## ALGORITHM
 
 1. **Define the Use Case:** Select a uniform suite of evaluation tasks applicable across all candidate platforms (e.g., direct Q&A, table generation, comparative synthesis, and step-by-step guidance).
@@ -21,8 +19,6 @@ To evaluate and compare the effectiveness of various prompting techniques (zero-
    * **Relevance:** Direct adherence to the prompt's instructions and constraints.
 5. **Analyze & Benchmark:** Synthesize performance metrics into a comparative evaluation matrix to identify model strengths, formatting capabilities, and context handling limits.
 
----
-
 ## EXPERIMENTAL PROMPTS & CROSS-PLATFORM EXECUTIONS
 
 ### 1. Straightforward Prompting (Zero-Shot Baseline)
@@ -33,8 +29,6 @@ To evaluate and compare the effectiveness of various prompting techniques (zero-
 * **Gemini / Bard:** The capital of France is Paris.
 * **Cohere Command:** Paris is the capital of France.
 * **Meta AI:** The capital of France is Paris.
-
----
 
 ### 2. Tabular Format Prompting
 > **Prompt:** `"Create a table comparing the key features of AI models."`
@@ -47,8 +41,6 @@ To evaluate and compare the effectiveness of various prompting techniques (zero-
 | **Cohere Command**| Feature \| Speed \| Contextual Understanding \| Integration Options |
 | **Meta AI** | Feature \| Contextual Understanding \| General Performance \| Accessibility |
 
----
-
 ### 3. Missing Word (Fill-in-the-Blank) Prompting
 > **Prompt:** `"The capital of Italy is ___."`
 
@@ -57,8 +49,6 @@ To evaluate and compare the effectiveness of various prompting techniques (zero-
 * **Gemini / Bard:** The capital of Italy is Rome.
 * **Cohere Command:** The capital of Italy is Rome.
 * **Meta AI:** The capital of Italy is Rome.
-
----
 
 ### 4. Preceding Question / Context Conditioning
 > **Prompt:** `"Given that the capital of France is Paris, what is the capital of Italy?"`
@@ -69,8 +59,6 @@ To evaluate and compare the effectiveness of various prompting techniques (zero-
 * **Cohere Command:** The capital of Italy is Rome.
 * **Meta AI:** The capital of Italy is Rome.
 
----
-
 ### 5. Comparative Analysis Prompting
 > **Prompt:** `"Compare the features of Python and Java."`
 
@@ -79,8 +67,6 @@ To evaluate and compare the effectiveness of various prompting techniques (zero-
 * **Gemini / Bard:** Python is highly versatile and beginner-friendly with extensive libraries. Java is structured, robust, and preferred for building secure, high-concurrency enterprise applications.
 * **Cohere Command:** Python provides flexibility and fast prototyping. Java provides rigid structure and better performance in large distributed systems.
 * **Meta AI:** Python is easier to learn and write, while Java is more robust and better suited for heavy enterprise software.
-
----
 
 ### 6. Experiential & Cognitive Perspective Prompting
 > **Prompt:** `"What is the best way to improve focus while studying?"`
@@ -91,8 +77,6 @@ To evaluate and compare the effectiveness of various prompting techniques (zero-
 * **Cohere Command:** Limit surrounding distractions, apply the Pomodoro framework, organize study materials in advance, and maintain regular break schedules.
 * **Meta AI:** Remove immediate distractions, adhere to a strict daily schedule, and take short, routine breaks to keep your mind sharp.
 
----
-
 ### 7. Everyday Functioning & Instructional Guidance
 > **Prompt:** `"How do I prepare for a job interview?"`
 
@@ -102,8 +86,6 @@ To evaluate and compare the effectiveness of various prompting techniques (zero-
 * **Cohere Command:** Conduct company research, practice core responses, select business-appropriate attire, and ensure strict punctuality.
 * **Meta AI:** Research the hiring company, prepare clear answers to common questions, dress professionally, and show up early to make a strong initial impression.
 
----
-
 ### 8. Universal Technical Explanation
 > **Prompt:** `"Explain the process of machine learning in simple terms."`
 
@@ -112,8 +94,6 @@ To evaluate and compare the effectiveness of various prompting techniques (zero-
 * **Gemini / Bard:** Machine learning involves systems analyzing vast datasets to uncover patterns, which they then use to draw conclusions or forecast outcomes on unseen data.
 * **Cohere Command:** Machine learning refers to algorithms discovering statistical patterns within data to make automated predictions, growing more accurate as data volume increases.
 * **Meta AI:** Machine learning is a technique where computers process data, uncover hidden trends, and apply those insights to make accurate future decisions.
-
----
 
 ## CROSS-PLATFORM PERFORMANCE EVALUATION MATRIX
 
